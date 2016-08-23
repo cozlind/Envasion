@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envasion_RubyStar.CSharp.Plugins", "Envasion_RubyStar.CSharp.Plugins.csproj", "{D2796FCC-218C-8130-0AE6-5E59FABC5EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envasion_RubyStar.CSharp", "Envasion_RubyStar.CSharp.csproj", "{4A8ED1B5-7B4D-BE5A-472B-677E7A14524E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Envasion_RubyStar.CSharp.Editor", "Envasion_RubyStar.CSharp.Editor.csproj", "{87421EC3-47D6-5BE2-F154-BA9B624A6781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2796FCC-218C-8130-0AE6-5E59FABC5EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2796FCC-218C-8130-0AE6-5E59FABC5EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2796FCC-218C-8130-0AE6-5E59FABC5EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2796FCC-218C-8130-0AE6-5E59FABC5EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8ED1B5-7B4D-BE5A-472B-677E7A14524E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8ED1B5-7B4D-BE5A-472B-677E7A14524E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8ED1B5-7B4D-BE5A-472B-677E7A14524E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8ED1B5-7B4D-BE5A-472B-677E7A14524E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87421EC3-47D6-5BE2-F154-BA9B624A6781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87421EC3-47D6-5BE2-F154-BA9B624A6781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87421EC3-47D6-5BE2-F154-BA9B624A6781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87421EC3-47D6-5BE2-F154-BA9B624A6781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
