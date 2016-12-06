@@ -1,4 +1,6 @@
-﻿// FogOfWar shader
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
+// FogOfWar shader
 // Copyright (C) 2013 Sergey Taraban <http://staraban.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -80,7 +82,7 @@ Shader "Sprite/MaskShader" {
 #ifdef PIXELSNAP_ON
 			OUT.vertex = UnityPixelSnap(OUT.vertex);
 #endif
-			float4 posWorld = mul(_Object2World, IN.vertex);
+			float4 posWorld = mul(unity_ObjectToWorld, IN.vertex);
 			OUT.location.xy = posWorld.xy;
 			return OUT;
 		}
